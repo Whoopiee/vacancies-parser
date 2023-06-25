@@ -1,0 +1,46 @@
+{
+    "workUA": {
+        "URL": "https://www.work.ua",
+        "jobURL": "https://www.work.ua/jobs",
+        "path": "#center > div.container > div.row  > div.col-md-8.col-left > div#pjax-job-list > div.wordwrap",
+        "addPathForLinks" : "h2 > a",
+        "pathSalary":"div > b",
+        "pathTitle":"h2 > a",
+        "pathCompany":"div.add-top-xs > span:nth-child(1) > b",
+        "countSel": "#pjax-job-list > div:nth-child(1) > div.flex.justify-space-between.flex-align-flex-start.add-top.add-bottom-sm > div:nth-child(1) > div",
+        "textPath":"p"
+    },
+    "dou": {
+        "URL": "https://jobs.dou.ua/",
+        "jobURL": "https://jobs.dou.ua/vacancies/?",
+        "path": "#vacancyListId > ul > li",
+        "addPathForLinks" : "div.vacancy > div.title > a",
+        "pathSalary":"div > div.title > span.salary",
+        "pathTitle":"div > div.title > a",
+        "pathCompany":"div > div.title > strong > a",
+        "countSel": "#container > div.content-wrap > div > div.row.m-db > div.cell.m-db > div > div.row > div:nth-child(1) > div.b-vacancies-head > div > h1",
+        "textPath":"div > div.sh-info"
+    },
+    "jooble": {
+        "URL": "https://ua.jooble.org/",
+        "jobURL": "https://ua.jooble.org/SearchResult?",
+        "path": "#serpContent > div:nth-child(1) > div > div > div > article",
+        "addPathForLinks" : "header > h2 > a",
+        "pathSalary":"section > div._3-PWkq > p.jNebTl",
+        "pathTitle":"header > h2 > a",
+        "pathCompany":"section > div._15xYk4.wrapper__new_tags_design > div > div._1JrOtp._30OfJk > div > p",
+        "countSel": "#topBarContainer > div._1u5zeO > div.UPGWgl > p",
+        "textPath":"section > div._3-PWkq > div._9jGwm1"
+    },
+    "jobsUA": {
+        "URL": "https://jobs.ua/",
+        "jobURL": "https://jobs.ua/vacancy",
+        "path": "body > div.wrapper.js-wrapper > div.b-inner > div.b-content > ul > li.js-item_list[id]",
+        "addPathForLinks" : "div.b-vacancy__top > div > h3 > a",
+        "pathSalary":"div.b-vacancy__top > div > h3 > span",
+        "pathTitle":"div > div.b-vacancy__top-inner > h3 > a",
+        "pathCompany":"div.b-vacancy__tech > span:nth-child(1) > span.link__hidden",
+        "countSel": "body > div.wrapper.js-wrapper > div.b-inner > div.b-content > div.b-default__block > div.b-vacancy__filter > div:nth-child(1) > span > b:nth-child(2)",
+        "textPath":"div.grey-light.b-text > p"    
+    }
+}
